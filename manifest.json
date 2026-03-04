@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Pomodoro Timer",
+  "version": "1.0",
+  "description": "25-min work and 5-min break Pomodoro timer with badge countdown.",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Pomodoro Timer"
+  },
+  "permissions": ["alarms", "storage"]
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">🍅 Pomodoro</h1>
+
+    <div class="mode-tabs">
+      <button class="mode-btn active" data-mode="work">Work</button>
+      <button class="mode-btn" data-mode="break">Break</button>
+    </div>
+
+    <div class="timer-wrapper">
+      <svg class="progress-ring" viewBox="0 0 120 120">
+        <circle class="ring-bg" cx="60" cy="60" r="52"/>
+        <circle class="ring-fg" id="ring" cx="60" cy="60" r="52"/>
+      </svg>
+      <div class="timer-display" id="timer">25:00</div>
+    </div>
+
+    <div class="controls">
+      <button class="btn btn-primary" id="start-pause">Start</button>
+      <button class="btn btn-secondary" id="reset">Reset</button>
+    </div>
+
+    <div class="status" id="status">Ready to focus</div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
