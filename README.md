@@ -1,4 +1,4 @@
-# 🍅 Pomodoro Timer — Chrome Extension
+# Pomodoro Timer — Chrome Extension
 
 A clean, minimal Pomodoro timer Chrome extension with a popup UI and live badge countdown.
 
